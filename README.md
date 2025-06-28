@@ -1,8 +1,4 @@
-Ось доповнений та завершений варіант `README.md` для репозиторію [Weather\_App](https://github.com/SaberWQ/Weather_App.git), з урахуванням вже наявного змісту та структури:
 
----
-
-````markdown
 # Weather application
 
 ![big_screen.png](static/icon/big_screen.png)

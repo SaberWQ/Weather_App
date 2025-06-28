@@ -1,8 +1,7 @@
 {
-    "main_frame": {
-        "width": 1200,
-        "height": 800,
-        "title": "main_frame",
-        "icon": ""
-    }
+    "name": "Weather App",
+    "width": 1200,
+    "height": 800,
+    "color": "#5DA7B1",
+    "list_city": ["Dnipro", "Kyiv", "Rome, IT", "London", "Warsaw", "Prague"]
 }

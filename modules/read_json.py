@@ -1,7 +1,7 @@
-import json 
-import os
+import os, json
 
-def read_json(name_file: str):
-    search_abs_path = os.path.abspath(__file__ + f"../../../static/{name_file}")
-    with open(file= search_abs_path, mode= 'r') as file_json:
-        return json.load(file_json)
+def read(file_name: str):
+    path = os.path.abspath(__file__ + '/../../static/' + file_name)
+    with open(path, encoding = 'utf-8') as file:
+        return json.load(file)
+    
